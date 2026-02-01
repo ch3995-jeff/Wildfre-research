@@ -1,0 +1,28 @@
+# Large data files (download separately)
+ERA5_daily_vpd/
+ERA5_daily_sfcWind/
+mtbs_perimeter_data/
+mtbs_fod_pts_data*/
+spei*.nc
+raw_downloads/
+
+# Shapefiles (can download from Census Bureau)
+tl_2025_us_state/
+cb_2018_us_state_500k/
+
+# Backup data
+data_all_indicators.csv
+
+# macOS
+.DS_Store
+*.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
